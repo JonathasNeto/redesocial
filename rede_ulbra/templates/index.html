@@ -1,0 +1,10 @@
+
+{% extends "model-page.html" %}
+{% block content %}
+    {% for p in perfil %}
+        {{ p.nome }}
+        {{ p.foto }}
+    {% endfor %}
+
+
+{% endblock %}
